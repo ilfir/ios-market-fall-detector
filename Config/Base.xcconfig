@@ -1,0 +1,8 @@
+// Shared build settings for the app target.
+// Personal signing values live in Local.xcconfig, which is git-ignored.
+// Copy Local.xcconfig.example to Local.xcconfig and fill in your own values.
+
+PRODUCT_BUNDLE_IDENTIFIER = com.example.IndexFallDetector
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"
